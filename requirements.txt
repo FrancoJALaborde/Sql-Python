@@ -1,0 +1,5 @@
+pip
+fastapi
+typing_extensions
+gradio
+uvicorn
