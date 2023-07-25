@@ -5,15 +5,15 @@ import io
 from fastapi.responses import HTMLResponse
 
 
-calendar = pd.read_csv("Data-csv\calendar.csv")
-channels = pd.read_csv("Data-csv\channels.csv")
-customers = pd.read_csv("Data-csv\customers.csv")
-employees = pd.read_csv("Data-csv\employees.csv")
-expensetypes = pd.read_csv("Data-csv\expense-types.csv")
-expenses = pd.read_csv("Data-csv\expenses.csv")
-products = pd.read_csv("Data-csv\products.csv")
-salepoints = pd.read_csv("Data-csv\sale-points.csv")
-sales = pd.read_csv("Data-csv\sales.csv")
+calendar = pd.read_csv("Data-csv\\calendar.csv")
+channels = pd.read_csv("Data-csv\\channels.csv")
+customers = pd.read_csv("Data-csv\\customers.csv")
+employees = pd.read_csv("Data-csv\\employees.csv")
+expensetypes = pd.read_csv("Data-csv\\expense-types.csv")
+expenses = pd.read_csv("Data-csv\\expenses.csv")
+products = pd.read_csv("Data-csv\\products.csv")
+salepoints = pd.read_csv("Data-csv\\sale-points.csv")
+sales = pd.read_csv("Data-csv\\sales.csv")
 
 
 def plot_graph1():
