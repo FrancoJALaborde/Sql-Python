@@ -32,7 +32,15 @@ This project integrates SQL, Python, and FastAPI to create an API that provides 
 - `main.py`: Python file containing the FastAPI code for the API.
 
 ## API Endpoints
-- `/visualizations`: Get visualizations for the company's performance.
-- `/data/{table_name}`: Get data from a specific table in the database.
-
+- (https://franksqlpython.onrender.com/api/plotCvsAR) : Get the Distribution of customers by age range and Branch
+- (https://franksqlpython.onrender.com/api/plotTop5ProdvsAR) : Get the Top 5 Selling Products by Age Range
+- (https://franksqlpython.onrender.com/api/plotTopEmpvsProd) : Get the Top Employees by Product
+- (https://franksqlpython.onrender.com/api/plotExpvsExpT) : Get the Total Expenses per Expense Type
+- (https://franksqlpython.onrender.com/api/plotSalesvsYear) : Get the Total Sales Grouped by Year
+- (https://franksqlpython.onrender.com/api/plotSalesvsBetterYear) : Get the Total Sales per Month in Year with most sales
+- (https://franksqlpython.onrender.com/api/plotMostProdvsMonBetterYear) : Get the Most Sold Products per Month in Year with most sales
+- (https://franksqlpython.onrender.com/api/plotLeastProdvsMonBetterYear) : Get the Least Sold Products per Month in Year with most sales
+- (https://franksqlpython.onrender.com/api/plotSalesvsWorseYear) : Get the Total Sales per Month in Year with least sales
+- (https://franksqlpython.onrender.com/api/plotMostProdvsMonWorseYear) : Get the Most Sold Products per Month in Year with least sales
+- (https://franksqlpython.onrender.com/api/plotLeastProdvsMonWorseYear) : Get the Least Sold Products per Month in Year with least sales
 
