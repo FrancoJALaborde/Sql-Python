@@ -1,0 +1,5 @@
+"ExpenseTypeID","Expense_Type","Approximate_Amount"
+1,"Rent",1000.0
+2,"Services",300.0
+3,"Taxes",100.0
+4,"Salaries and Wages",1000.0
